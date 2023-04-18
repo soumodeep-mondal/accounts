@@ -1,0 +1,73 @@
+.carrer-b-img-1{
+    min-height: 550px;
+    background-image: url(../img/img/carrer/carrer-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.carrer-option-bg{
+    position: relative;
+    min-height: 50vh;
+    background-color: #40484c;
+
+}
+.circle-box{
+    position: relative;
+    width: 300px;
+    height:300px;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius:50% ;
+    overflow: hidden;
+    border: 5px solid rgb(255, 255, 255);
+}
+.circle-box a{
+    position: absolute;
+    width:275px;
+    height:275px;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.circle-box a:hover{
+    background-color: #47a099;
+    opacity: 0.5;
+}
+.circle-box a:focus{
+    background-color: #47a099;
+    opacity: 0.6;
+}
+.circle-box img{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+.circle-box p{
+    position: relative;
+    font-family: 'calibri';
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,0%);
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    z-index: 10;
+
+}
+@media only screen and (max-width : 991px) {
+    .carrer-b-img-1{
+        min-height: 550px;
+        background-image: url(../img/img/carrer/carrer-header.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width : 767px) {
+    .carrer-b-img-1{
+        min-height: 550px;
+        background-image: url(../img/img/carrer/carrer-header-767.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}

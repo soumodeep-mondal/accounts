@@ -1,0 +1,130 @@
+.service-b-img-1{
+    min-height: 550px;
+    background-image: url(../img/img/service/header-icon.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.service-card{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.service-card i{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+[aria-expanded="true"] .bi-chevron-down, 
+[aria-expanded="false"] .bi-chevron-up {
+    display:none;
+}
+.service-box-body p{
+    font-size: 14px;
+    line-height: 10px;
+    color: black;
+}
+@media (max-width: 991px) {
+    .service-b-img-1{
+        min-height: 550px;
+        background-image: url(../img/img/service/header-icon-991.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 767px) {
+    .service-b-img-1{
+        min-height: 550px;
+        background-image: url(../img/img/service/header-icon-767.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 480px) {
+    .service-b-img-1{
+        min-height: 550px;
+        background-image: url(../img/img/service/header-icon-480.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 320px) {
+    .service-b-img-1{
+        min-height: 550px;
+        background-image: url(../img/img/service/header-icon-320.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.service-rates {
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.service-rates i{
+    font-size: 1.5rem;
+}
+.service-rates{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#fff;
+}
+#our-service{
+    background-color: #f0f5fc;
+}
+#our-service .card .card-link{
+    position: relative;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+.custom-price{
+    font-weight: 500;
+    float: right;
+    color: rgb(35, 156, 255);
+}
+
+#our-service .card .card-link .bi{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(-0%,-50%);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+[aria-expanded="true"] .bi-plus, 
+[aria-expanded="false"] .bi-dash {
+    display:none;
+}
+.terms{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon-check{
+    color: #4a89d5;
+    font-size: 22px;
+}
+
+
+#custom-rate{
+
+
+padding-right: 0px;
+padding-left:0px;
+}
+.card-body p{
+    line-height: 15px;
+}
