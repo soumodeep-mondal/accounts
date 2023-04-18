@@ -1,0 +1,397 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Georgia.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+/* Navbar */
+#topbar{
+    background-color: #e2eff9;
+    height: 35px;
+}
+#login-btn{
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    background-color: var(--primary);
+    color: var(--light);
+}
+.nav-logo img{
+    width: 300px;
+}
+.banner-img-1{
+    min-height: 650px;
+    background-image: url(../img/img/slider/s-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.banner-img-2{
+    min-height: 650px;
+    background-image: url(../img/img/slider/s-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.banner-img-3{
+    min-height: 650px;
+    background-image: url(../img/img/slider/s-3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+/* Banner */
+#bannerbox-fix{
+    position: absolute;
+    z-index: 999;
+
+}
+#b-text1{
+    font-size: 3.5rem;
+    font-family: Georgia;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left:15px ;
+}
+#b-text2{
+    font-size: 1.4rem;
+    font-family: Georgia;
+    color: #fff;
+
+    letter-spacing: 2px;
+    padding-left:15px ;
+}
+#b-text3{
+    font-size: 2.2rem;
+    font-family: Georgia;
+    color: #fff;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    padding-left:15px ;
+}
+#b-learnmore-btn a{
+    margin-left: 15px;
+    padding: 5px 15px 5px 15px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+    color: black;
+    font-family: 'Century Gothic';
+}
+
+/* Banner End*/
+.download-btn{
+    color: #fff;
+    background-color: #104469;
+}
+
+/*-------------------*/
+
+.responsive-custom-child{
+    padding-bottom: 15px;
+}
+
+
+@media (max-width: 1199px) {
+    #b-text1{
+        font-size: 3.5rem;
+        font-family: Georgia;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding-left:15px ;
+    }
+    #b-text2{
+        font-size: 1.2rem;
+        font-family: Georgia;
+        color: #fff;
+    
+        letter-spacing: 2px;
+        padding-left:15px ;
+    }
+    #b-text3{
+        font-size: 2rem;
+        font-family: Georgia;
+        color: #fff;
+        padding-top: 50px;
+        letter-spacing: 2px;
+        padding-left:15px ;
+    }
+    .service-btn{
+      position:relative; left:57%; transform: translate(-50%, 0);  
+    }
+
+    .service-btn-txt{
+        background-color: #104469;
+        font-weight: 700;
+        padding: 8px;
+        font-size: 14px;
+        border-radius:5px;
+        color: #fff; 
+        text-align: center;
+     }
+
+}
+@media (max-width: 991.98px) {
+    #topbar{
+        display: none;
+    }
+    .nav-logo img{
+        width: 300px !important;
+    }
+    #b-learnmore-btn a{
+        margin-left: 0px;
+    }
+    .banner-img-1{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-1\ 991.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .banner-img-2{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-2\ 991.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .banner-img-3{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-3\ 991.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    #b-text1{
+        font-size: 3.5rem;
+        font-family: Georgia;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text2{
+        font-size: 1rem;
+        font-family: Georgia;
+        color: #fff;
+    
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text3{
+        font-size: 1.5rem;
+        font-family: Georgia;
+        color: #fff;
+
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+}
+@media (max-width: 1142px) {
+    .nav-logo img{
+        width: 190px !important;
+    }
+}
+@media (max-width: 767px) {
+    .banner-img-1{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-1\ 767.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .banner-img-2{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-2\ 767.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .banner-img-3{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-3\ 767.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    #b-text1{
+        font-size: 3.5rem;
+        font-family: Georgia;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text2{
+        width: 60%;
+        font-size: 1rem;
+        font-family: Georgia;
+        color: #fff;
+    
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text3{
+        width: 60%;
+        font-size: 1.5rem;
+        font-family: Georgia;
+        color: #fff;
+        padding-top: 10px;
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+}
+@media (max-width: 480px) {
+    .nav-logo img{
+        width: 200px !important;
+    }
+    .banner-img-1{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-1\ 480.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .banner-img-2{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-2\ 480.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .banner-img-3{
+        min-height: 650px;
+        background-image: url(../img/img/slider/s-3\ 480.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    #b-text1{
+        font-size:2rem;
+        font-family: Georgia;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text2{
+        width: 80%;
+        font-size: 0.8rem;
+        font-family: Georgia;
+        color: #fff;
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text3{
+        width: 80%;
+        font-size: 1.2rem;
+        font-family: Georgia;
+        color: #fff;
+ 
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+}
+@media (max-width: 375px) {
+    #b-text1{
+        font-size:1.3rem;
+        font-family: Georgia;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text2{
+        width: 100%;
+        font-size: 0.5rem;
+        font-family: Georgia;
+        color: #fff;
+    
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+    #b-text3{
+        font-size: 1.2rem;
+        font-family: Georgia;
+        color: #fff;
+    
+        letter-spacing: 2px;
+        padding-left:0px ;
+    }
+
+
+}
+
+/* Navbar End*/
+.service-items{
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.service-items:hover{
+    background-color: var(--hover);
+    border: 1px solid var(--hover);
+    z-index: 100;
+}
+            /* owl btn css */
+            .owl-carousel{
+                text-align: center;
+                }
+                .owl-prev{
+                left: -50px;
+                display: none;
+                }
+                .owl-next{
+                right: -50px;
+                display: none;
+                }
+                .owl-prev , .owl-next{
+                position: absolute;
+                top:110px;
+                }
+                .owl-prev span, .owl-next span{
+                font-size: 80px;
+                color: #f7444e;
+                border: none;
+                display: none;
+                }
+                .owl-theme .owl-dots, .owl-theme {
+                display: none;
+                }
+
+
+
+
+@media (max-width: 480px) {
+
+    .responsive-custom{
+        margin-top: -10%;
+    }
+    .responsive-custom-child{
+        padding-bottom: 0px;
+    }
+
+}
+@media (max-width: 375px) {
+
+    .responsive-custom{
+        margin-top: -13%;
+    }
+    .responsive-custom-child{
+        padding-bottom: 0px;
+    }
+
+
+}
+@media (max-width: 320px) {
+    .responsive-custom{
+        margin-top: -15%;
+    }
+    .responsive-custom-child{
+        padding-bottom: 0px;
+    }
+
+
+}

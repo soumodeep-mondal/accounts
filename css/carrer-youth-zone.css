@@ -1,0 +1,38 @@
+.carrer-youth-img-2{
+    min-height: 450px;
+    background-image: url(../img/img/carrer/youth-zone-banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+    .carrer-youth-img-2{
+        min-height: 450px;
+        background-image: url(../img/img/carrer/youth-zone-banner-767.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 480px) {
+    .carrer-youth-img-2{
+        min-height: 450px;
+        background-image: url(../img/img/carrer/youth-zone-banner-480.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 375px) {
+    .carrer-youth-img-2{
+        min-height: 450px;
+        background-image: url(../img/img/carrer/youth-zone-banner-375.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 320px) {
+    .carrer-youth-img-2{
+        min-height: 450px;
+        background-image: url(../img/img/carrer/youth-zone-banner-320.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}

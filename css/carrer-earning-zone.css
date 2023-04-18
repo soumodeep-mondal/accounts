@@ -1,0 +1,14 @@
+.circle-box-active-custom{
+    position: absolute;
+    width:275px;
+    height:275px;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 0.6;
+    background-color: #47a099;
+
+
+
+}
